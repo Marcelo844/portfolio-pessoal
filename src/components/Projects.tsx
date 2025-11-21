@@ -3,20 +3,25 @@ import { Card } from '@/components/ui/card';
 
 const projects = [
   {
-    title: 'Projeto 1',
-    description: 'Uma breve descrição do projeto, destacando as principais tecnologias e funcionalidades implementadas.',
-    image: '/placeholder.svg',
+    title: 'Connect Skills',
+    description: 'Plataforma que conecta candidatos e empresas com base em habilidades comportamentais com uso de inteligência artificial.',
+    link: 'https://github.com/brunowasch/connect-skills'
   },
   {
-    title: 'Projeto 2',
-    description: 'Uma breve descrição do projeto, destacando as principais tecnologias e funcionalidades implementadas.',
-    image: '/placeholder.svg',
+    title: 'Consumo de API de filme em React',
+    description: 'Aplicação React que exibe um catálogo de filmes com busca e filtro por gênero, consumindo dados de uma API.',
+    link: 'https://github.com/Marcelo844/catalogo-filmes-react'
   },
   {
-    title: 'Projeto 3',
-    description: 'Uma breve descrição do projeto, destacando as principais tecnologias e funcionalidades implementadas.',
-    image: '/placeholder.svg',
+    title: 'Batalha Naval Em Java',
+    description: 'Recriação do jogo Batalha Naval utilizando Java como linguagem de programação. Jogado diretamente pelo terminal.',
+    link: 'https://github.com/brunowasch/java-navalbattle'
   },
+  {
+    title: 'Dashboard interativo utilizando Python com StreamLit',
+    description: 'Dashboard interativo em Streamlit que analisa dados do Kaggle sobre características de veículos e seus respectivos preços (MSRP).',
+    link: 'https://github.com/Marcelo844/Trabalho-Dashboard'
+  }
 ];
 
 const Projects = () => {
@@ -36,14 +41,6 @@ const Projects = () => {
                          animate-slide-up"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className="aspect-video bg-muted/50 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              
               <div className="p-6 space-y-4">
                 <h3 className="text-xl font-semibold text-foreground">{project.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
@@ -51,11 +48,14 @@ const Projects = () => {
                 </p>
                 
                 <Button
+                  asChild
                   variant="outline"
                   className="w-full border-accent/50 text-accent hover:bg-accent hover:text-accent-foreground 
-                           transition-all duration-300"
+                            transition-all duration-300"
                 >
-                  Ver projeto
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    Ver projeto
+                  </a>
                 </Button>
               </div>
             </Card>

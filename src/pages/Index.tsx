@@ -3,6 +3,7 @@ import About from '@/components/About';
 import Technologies from '@/components/Technologies';
 import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
+import Participations from '@/components/Participations';
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <About />
         <Technologies />
         <Projects />
+        <Participations />
       </main>
       <Footer />
     </div>
