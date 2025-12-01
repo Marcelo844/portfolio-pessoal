@@ -15,21 +15,18 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sou estudante do Curso Técnico em Informática na Escola Técnica Estadual Monteiro Lobato (CIMOL) 
-                e um admirador do mundo do desenvolvimento web.
+                Sou estudante do Curso Técnico em Informática na Escola Técnica Estadual Monteiro Lobato (CIMOL) e apaixonado pelo universo do desenvolvimento web. 
+                Ao longo da minha formação, desenvolvi experiência tanto no front-end quanto no back-end, o que me permite criar aplicações completas, bem estruturadas e focadas na experiência do usuário.
               </p>
               
               <p>
-                Tenho experiência tanto no desenvolvimento front-end quanto no back-end, o que me permite construir 
-                aplicações completas e bem estruturadas. Possuo grande interesse em bancos de dados, tanto relacionais 
-                (SQL) quanto não relacionais (NoSQL), e gosto de explorar suas funcionalidades para garantir 
-                organização, desempenho e escalabilidade aos projetos.
+                Tenho grande interesse em bancos de dados, tanto SQL quanto NoSQL, e gosto de explorar suas diversas abordagens para garantir organização, desempenho e escalabilidade em cada projeto. 
+                Procuro sempre entender como e por que as tecnologias funcionam, buscando construir soluções eficientes e com boas práticas.
               </p>
               
               <p>
                 Estou constantemente em busca de novos aprendizados, atualizando meus conhecimentos em tecnologias 
-                modernas e aprimorando minhas habilidades no desenvolvimento de sistemas. Vejo o desenvolvimento web 
-                como uma forma de solucionar problemas e inovar.
+                modernas e aprimorando minhas habilidades no desenvolvimento de sistemas. Vejo o desenvolvimento web como uma forma de solucionar problemas e inovar.
               </p>
             </div>
           </div>
