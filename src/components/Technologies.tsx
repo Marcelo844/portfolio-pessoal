@@ -2,13 +2,17 @@ const technologies = [
   { name: 'HTML', icon: 'devicon-html5-plain colored' },
   { name: 'CSS', icon: 'devicon-css3-plain colored' },
   { name: 'JavaScript', icon: 'devicon-javascript-plain colored' },
+  { name: 'TypeScript (Básico)', icon: 'devicon-typescript-plain colored' },
   { name: 'Bootstrap', icon: 'devicon-bootstrap-plain colored' },
+  { name: 'React (Básico)', icon: 'devicon-react-original colored' },
   { name: 'Node.js', icon: 'devicon-nodejs-plain colored' },
   { name: 'C', icon: 'devicon-c-plain colored' },
   { name: 'Java', icon: 'devicon-java-plain colored' },
   { name: 'Python', icon: 'devicon-python-plain colored' },
   { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
+  { name: 'Prisma', icon: 'devicon-prisma-original colored' },
   { name: 'Git', icon: 'devicon-git-plain colored' },
+  { name: 'Github', icon: 'devicon-github-original' },
 ];
 
 const Technologies = () => {
