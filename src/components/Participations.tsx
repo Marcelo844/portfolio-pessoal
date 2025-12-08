@@ -61,7 +61,7 @@ const participations = [
     title: 'Meetup dos Devs do Paranhana',
     date: '2025',
     description: 'Encontro de Devs do Paranhana com Palestras sobre inovação',
-    image: 'placeholder.svg',
+    image: '/images/Meetup_2025pt.2.jpeg',
   },
   {
     title: 'Hackaton ESG Now',
