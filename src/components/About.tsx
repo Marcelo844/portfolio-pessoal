@@ -24,8 +24,7 @@ const About = () => {
               </p>
               
               <p>
-                Após concluir a minha formação, estou constantemente em busca de novos aprendizados, sempre atualizando meus conhecimentos em tecnologias 
-                modernas e aprimorando minhas habilidades no desenvolvimento de sistemas. Vejo o desenvolvimento web como uma forma de solucionar problemas e inovar.
+                Após concluir a minha formação, estou constantemente em busca de novos aprendizados, sempre explorando meus conhecimentos em novas tecnologias e melhorando minhas habilidades no desenvolvimento web. Vejo o desenvolvimento web como uma forma de solucionar problemas e inovar.
               </p>
             </div>
           </div>
