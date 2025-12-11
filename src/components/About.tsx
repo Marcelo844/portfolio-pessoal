@@ -15,17 +15,16 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sou estudante do Curso Técnico em Informática na Escola Técnica Estadual Monteiro Lobato (CIMOL) e apaixonado pelo universo do desenvolvimento web. 
-                Ao longo da minha formação, desenvolvi experiência tanto no front-end quanto no back-end, o que me permite criar aplicações completas, bem estruturadas e focadas na experiência do usuário.
+                Sou estudante da Escola Técnica Estadual Monteiro Lobato (CIMOL), no curso Técnico em Informática, e apaixonado pelo mundo do desenvolvimento web. Ao longo desses anos de formação, desenvolvi experiência tanto no front-end quanto no back-end, o que me permite criar aplicações completas, estruturadas e focadas na experiência do usuário.
               </p>
               
               <p>
-                Tenho grande interesse em bancos de dados, tanto SQL quanto NoSQL, e gosto de explorar suas diversas abordagens para garantir organização, desempenho e escalabilidade em cada projeto. 
-                Procuro sempre entender como e por que as tecnologias funcionam, buscando construir soluções eficientes e com boas práticas.
+                Tenho grande interesse em desenvolvimento web, explorando tanto o front-end quanto o back-end para construir aplicações completas, eficientes e estruturadas.
+                Gosto de entender como cada tecnologia funciona, do comportamento da interface ao fluxo de dados no servidor, buscando criar soluções rápidas, intuitivas e alinhadas às boas práticas.
               </p>
               
               <p>
-                Estou constantemente em busca de novos aprendizados, atualizando meus conhecimentos em tecnologias 
+                Após concluir a minha formação, estou constantemente em busca de novos aprendizados, sempre atualizando meus conhecimentos em tecnologias 
                 modernas e aprimorando minhas habilidades no desenvolvimento de sistemas. Vejo o desenvolvimento web como uma forma de solucionar problemas e inovar.
               </p>
             </div>
