@@ -66,8 +66,14 @@ const participations = [
   {
     title: 'Hackaton ESG Now',
     date: '2025',
-    description: 'Descrição da participação ou premiação obtida na competição.',
-    image: 'placeholder.svg',
+    description: 'Hackathon realizado pela ESG Now promovendo a inovação e colaboração em projetos de sustentabilidade e ESG.',
+    image: '/images/Hackathon_ESG-2.png',
+  },
+  {
+    title: 'Workshop InovaLabs',
+    date: '2025',
+    description: 'Workshop de inovação e tecnologia do Crisdu Labs, promovendo o avanço em dedcultura de inovação e inteligência artificial.',
+    image: '/images/Workshop_InovaLabs-2.png',
   },
 ];
 
